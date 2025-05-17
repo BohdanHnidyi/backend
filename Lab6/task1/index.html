@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Користувачі</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Реєстрація користувача</h2>
+<form id="registerForm">
+    <input type="text" id="name" placeholder="Ім'я" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Пароль" required>
+    <button type="submit">Зареєструватись</button>
+</form>
+<hr>
+<h2>Список користувачів</h2>
+<button onclick="getUsers()">Оновити список</button>
+<ul id="userList"></ul>
+<script src="script.js"></script>
+</body>
+</html>

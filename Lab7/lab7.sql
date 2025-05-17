@@ -1,0 +1,11 @@
+
+CREATE DATABASE IF NOT EXISTS lab7;
+USE lab7;
+
+CREATE TABLE IF NOT EXISTS traffic_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ip VARCHAR(45),
+    url TEXT,
+    status_code INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

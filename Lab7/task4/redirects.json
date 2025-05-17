@@ -1,0 +1,7 @@
+
+{
+  "/old-page": "/new-page",
+  "/deprecated": "/404",
+  "/start": "/task1/cache_page.php",
+  "/limit": "/task2/rate_limit.php"
+}
